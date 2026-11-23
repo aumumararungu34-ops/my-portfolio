@@ -1,0 +1,32 @@
+export const starterProjects = [
+  {
+    id: 'project-1',
+    title: 'Movies Bazer',
+    description: 'A movie discovery application built with React and the TMDB API.',
+    technologies: ['React.js', 'JavaScript', 'TMDB API'],
+    github: '',
+    live: '',
+    imageUrl: '',
+    order: 0,
+  },
+  {
+    id: 'project-2',
+    title: 'Blog Application',
+    description: 'A React blog application with add, edit, and delete functionality, with Firebase integration where implemented.',
+    technologies: ['React.js', 'Firebase'],
+    github: '',
+    live: '',
+    imageUrl: '',
+    order: 1,
+  },
+  {
+    id: 'project-3',
+    title: 'Personal Portfolio',
+    description: 'A responsive portfolio website presenting my profile, skills, education, and development work.',
+    technologies: ['React.js', 'Tailwind CSS', 'Vite'],
+    github: '',
+    live: '',
+    imageUrl: '',
+    order: 2,
+  },
+]

@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+  color: #0f172a;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.site-theme {
+  background-color: var(--site-background);
+  color: var(--site-text);
+}
+
+.site-header {
+  background-color: color-mix(in srgb, var(--site-background) 95%, transparent);
+  border-color: var(--site-border);
+}
+
+.site-theme .text-blue-700,
+.site-theme .text-blue-400 {
+  color: var(--site-accent);
+}
+
+.site-theme .bg-slate-950 {
+  background-color: var(--site-accent);
+}
+
+.site-theme .hover\:bg-blue-700:hover {
+  background-color: var(--site-accent);
+}
+
+.site-theme .text-slate-950,
+.site-theme .text-slate-900 {
+  color: var(--site-text);
+}
+
+.site-theme .text-slate-700,
+.site-theme .text-slate-600,
+.site-theme .text-slate-500,
+.site-theme .text-slate-400 {
+  color: var(--site-muted);
+}
+
+.site-theme .border-slate-200,
+.site-theme .border-slate-300 {
+  border-color: var(--site-border);
+}
+
+.site-theme .bg-white,
+.site-theme .bg-slate-50,
+.site-theme .bg-slate-100 {
+  background-color: var(--site-surface);
+}
